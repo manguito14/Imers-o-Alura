@@ -1,0 +1,116 @@
+.main__container {
+    max-width: 80vw;
+    height: 100vh;
+    margin-right: 56px;
+    margin-left: 320px;
+}
+
+.header__navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    margin: 10px;
+    border-radius: 8px;
+    background-color: #0B2F9F;
+}
+
+.header__navigation .navigation{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header__navigation .navigation .left__arrow {
+    margin-right: 1.25rem;
+}
+
+.left__arrow, .right__arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    background: var(--bg-icon);
+    background-color: var(--bg-arrow-color);
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+.header__login {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header__search {
+    display: flex;
+    align-items: center;
+    width: 364px;
+    height: 48px;
+    margin-left: 8px;
+    background-color: #161D6F;
+    border-radius: 500px;
+    border: 1px solid transparent;
+}
+/*Icone Lupa */
+.header__search img{
+    width: 16px;
+    height: 16px;
+    margin-left: 10px;
+}
+/*barra de pesquisa*/
+.header__search input{
+    background: transparent;
+    border: none;
+    padding: 0px 100px 0px 12px;
+    color: #fff;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    outline: none;
+}
+
+.header__login .subscribe{
+    color: #a7a7a7;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: transparent;
+    margin-right: 32px;
+    border: none;
+}
+
+.header__login .login{
+    width: 100px;
+    height: 48px;
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 40px;
+}
+
+.playlist__container{
+    height: 68vh;
+    padding-top: 16px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #0B2F9F;
+}
+
+.playlists{
+    margin: 24px;
+}
+
+.playlists #greeting{
+    color: #fff;
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 48px;
+}
+
+.playlists .greeting-subtitle{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+}
